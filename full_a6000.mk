@@ -32,5 +32,4 @@ PRODUCT_MANUFACTURER := Lenovo
 PRODUCT_BUILD_PROP_OVERRIDES += \
      PRODUCT_MODEL="Lenovo A6000" \
      PRODUCT_NAME="Kraft-A6000" \
-     PRODUCT_DEVICE="Kraft-A6000" \
-     ro.build.product=Kraft-A6000
+     PRODUCT_DEVICE="Kraft-A6000" 

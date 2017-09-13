@@ -24,10 +24,6 @@ LOCAL_SRC_FILES += \
     MsgTask.cpp \
     loc_misc_utils.cpp
 
-LOCAL_CFLAGS += \
-     -fno-short-enums \
-     -D_ANDROID_ \
-     -std=c++11
 
 ifeq ($(TARGET_BUILD_VARIANT),user)
    LOCAL_CFLAGS += -DTARGET_BUILD_VARIANT_USER
@@ -59,7 +55,7 @@ LOCAL_COPY_HEADERS:= \
    loc_misc_utils.h
 
 LOCAL_MODULE := libgps.utils
-LOCAL_CLANG := false
+LOCAL_CLANG := true
 
 LOCAL_MODULE_TAGS := optional
 
